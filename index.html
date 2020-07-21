@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=c, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Javascript on steroid</title>
+</head>
+
+<body>
+    <div class="container-1">
+        <h2>Challange 1: Age in Days</h2>
+        <div class="flex-box-container-1">
+            <div>
+                <button class="btn btn-primary" onclick="ageInDays()">Click me</button>
+
+            </div>
+            <div>
+                <button class="btn btn-danger" onclick="reset()">reset</button>
+            </div>
+        </div>
+
+        <div class="flex-box-container-1">
+            <div id="flex-box-result"></div>
+        </div>
+    </div>
+    <div class="container-2">
+        <h2>Challange 2: Cat Generator</h2>
+        <button class="btn btn-success" id="cat-generator" onclick="generateCat()">Generate cat</button>
+        <div class="flex-box-container-2" id="flex-cat-gen">
+        </div>
+    </div>
+    <div class="container-3">
+        <h2>Challange 3:Rock,Paper,Scissors</h2>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img src="https://mpng.subpng.com/20180409/fqe/kisspng-rock-cartoon-clip-art-rock-5acaffe11e0371.4264724015232532171229.jpg" id="rock" alt="" height="150" width="150" onclick="rpsGame(this)">
+            <img src="https://media.officedepot.com/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,h_666,q_auto,w_500/c_pad,h_666,w_500/v1/products/589483/589483_o02_office_depot_brand_notebook_filler_paper?pgw=1" id="paper" alt="" height="150" width="150" onclick="rpsGame(this)">
+            <img src="https://png.pngtree.com/png-clipart/20190920/original/pngtree-gesture-scissors-hand-cartoon-pose-png-image_4641609.jpg" id="scissors" alt="" height="150" width="150" onclick="rpsGame(this)">
+
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
